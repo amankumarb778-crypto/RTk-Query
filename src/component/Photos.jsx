@@ -1,5 +1,5 @@
 import React from 'react';
-import { useGetPhotosQuery } from '../features/apiThunk/RTKUserApi.jsx';
+import { useGetPhotosQuery } from '../feature/apiThunk/RTKUserApi';
 
 const Photos = () => {
     const { data: photos, error, isLoading } = useGetPhotosQuery();

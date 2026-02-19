@@ -1,5 +1,5 @@
 import React from 'react';
-import { useGetTodosQuery } from '../features/apiThunk/RTKUserApi.jsx';
+import { useGetTodosQuery } from '../feature/apiThunk/RTKUserApi';
 
 const Todo = () => {
   const { data: users, error, isLoading } = useGetTodosQuery();

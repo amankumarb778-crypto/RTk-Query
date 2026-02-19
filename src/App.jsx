@@ -1,7 +1,7 @@
-import Photos from "./components/Photos";
-import Todo from "./components/Todo";
+import Photos from "./component/Photos";
+import Todo from "./component/Todo";
 // import UsersList from "./components/UserList";
-import { useGetUsersQuery } from "./features/apiThunk/RTKUserApi.jsx";
+import { useGetUsersQuery } from "./feature/apiThunk/RTKUserApi";
 
 const App = () => {
   const {data: users, error, isLoading} = useGetUsersQuery();
